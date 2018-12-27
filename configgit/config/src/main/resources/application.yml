@@ -1,0 +1,47 @@
+#spring:
+#  application:
+#    name: config
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://gitee.com/SpringCloud_Sell2/config-repo
+#          username: 614056226@qq.com
+#          password: wsttian1030610
+#          basedir: D:\SpringCloud\SpringCloudProject\SpringCloud_Sell\config\basedir
+##management:
+##  endpoints:
+##    web:
+##      exposure:
+##        include: bus-refresh
+##  rabbitmq:
+##    host: 192.168.99.100
+##    port: 15672
+##    username : user
+##    password: password
+##eureka:
+##  client:
+##    service-url:
+##       defaultZone: http://localhost:8761/eureka/
+##
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/SpringCloud_Sell2/config-repo
+          username: 614056226@qq.com
+          password: wsttian1030610
+          basedir: D:\SpringCloud\SpringCloudProject\SpringCloud_Sell\config\basedir
+  # 配置rabbitmq的地址以及用户密码
+  rabbitmq:
+    host: 192.168.0.102
+    port: 15672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
