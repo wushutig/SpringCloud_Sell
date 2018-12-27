@@ -6,8 +6,8 @@
 #      server:
 #        git:
 #          uri: https://gitee.com/SpringCloud_Sell2/config-repo
-#          username: 614056226@qq.com
-#          password: wsttian1030610
+#          username: sue_wushuting@163.com
+#          password: @*%#.￥?/&^5$#~`/"
 #          basedir: D:\SpringCloud\SpringCloudProject\SpringCloud_Sell\config\basedir
 ##management:
 ##  endpoints:
@@ -32,8 +32,8 @@ spring:
       server:
         git:
           uri: https://gitee.com/SpringCloud_Sell2/config-repo
-          username: 614056226@qq.com
-          password: wsttian1030610
+          username: sue_wushuting@163.com
+          password: @*%#.￥?/&^5$#~`/"
           basedir: D:\SpringCloud\SpringCloudProject\SpringCloud_Sell\config\basedir
   # 配置rabbitmq的地址以及用户密码
   rabbitmq:
